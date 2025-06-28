@@ -1,0 +1,10 @@
+[project]
+name = "backend-p"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.16.2",
+    "sqlalchemy[asyncio]>=2.0.41",
+]
